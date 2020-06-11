@@ -1,0 +1,31 @@
+---
+book_repo: docs-book-tanzu-buildpacks
+layout_repo: pivotal-cf/docs-layout-repo
+layout_repo_ref: 'edge'
+
+feedback_enabled: true
+
+broken_link_exclusions: iefix|arrowhead
+repo_link_enabled: true
+
+public_host: docs.pivotal.io
+
+elastic_search: true
+
+sections:
+
+- repository:
+    name: pivotal-cf/docs-tanzu-buildpacks
+  directory: tanzu-buildpacks/0-n
+  subnav_template: tanzu-buildpacks_subnav_0-n.erb
+  product_info:
+    use_local_header: true
+    latest_stable_version: 0.1
+    changelog_href: http://docs.pivotal.io/tanzu-buildpacks/0-n/nodejs/release-notes.html
+    local_header_img: /images/cloud_rings.png
+    local_header_title: Tanzu Buildpacks
+    search_placeholder: Search Tanzu Buildpacks
+    url_prefix: tanzu-buildpacks/0-n
+    local_product_version: '0.1'
+    local_header_links: []
+    local_header_version_list:

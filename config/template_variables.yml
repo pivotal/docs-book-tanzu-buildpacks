@@ -1,0 +1,21 @@
+---
+template_variables:
+  book_title: VMware Tanzu Documentation
+  book_title_short: VMware Tanzu Docs
+  hero_text: "Detailed documentation to help you install, understand, and succeed with VMware enterprise-grade software."
+  product_full: VMware Tanzu Buildpacks
+  product_short: Tanzu Buildpacks
+  ops_manager: Ops Manager
+  app_runtime_full: VMware Tanzu Application Service for VMs
+  app_runtime_abbr: TAS for VMs
+  product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back to Product Page</a></div>
+  product_url:
+  support_call_to_action: <a href="http://support.pivotal.io" target="_blank">Need Support?</a>
+  support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
+  support_url: http://support.pivotal.io
+  title: <span class="title-deemph">VMware Tanzu</span> Documentation
+  title_image: images/icon-p-green.jpg
+  product_network: VMware Tanzu Network
+  use_global_header: true
+  global_header_product_href: https://network.pivotal.io/
+  global_header_product_link_text: Downloads
