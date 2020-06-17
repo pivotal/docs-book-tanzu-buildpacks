@@ -15,7 +15,7 @@ elastic_search: true
 sections:
 
 - repository:
-    name: pivotal-cf/docs-tanzu-buildpacks
+    name: pivotal/docs-tanzu-buildpacks
   directory: tanzu-buildpacks/0-n
   subnav_template: tanzu-buildpacks_subnav_0-n.erb
   product_info:
