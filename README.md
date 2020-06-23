@@ -1,6 +1,6 @@
 #  Tanzu Buildpacks Documentation Book
 
-The content repo associated with this book is [pivotal/docs-tanzu-buildpacks](https://github.com/pivotal-cf/docs-tanzu-buildpacks).
+The content repo associated with this book is [pivotal/docs-tanzu-buildpacks](https://github.com/pivotal/docs-tanzu-buildpacks).
 For specific information about Tanzu Buildpacks documentation,
 see [Tanzu Buildpacks Docs](https://github.com/pivotal-cf/docs-tanzu-buildpacks/blob/master/README.md).
 
@@ -63,7 +63,7 @@ in the [Bookbinder/Bookbindery](https://github.com/pivotal-cf/bookbinder/blob/ma
 
 ## The Docs Toolchain
 
-The Cloud Foundry documentation is written in markdown and published using the [Bookbinder gem](http://github.com/pivotal-cf/docs-bookbinder) to generate the documentation as a web application with [Middleman](http://middlemanapp.com/).
+The Tanzu documentation is written in markdown and published using the [Bookbinder gem](http://github.com/pivotal-cf/docs-bookbinder) to generate the documentation as a web application with [Middleman](http://middlemanapp.com/).
 
 
 ## Contributing to the Documentation
@@ -78,10 +78,6 @@ You can reach the docs team by email at [cf-docs@pivotal.io](mailto:cf-docs@pivo
 
 If you are trying to figure out where a particular bit of information should live, please reach out and ask.
 We're happy to help you ensure information goes to the right place.
-
-Note that content often lives in more than one context.
-Please make sure that any contribution you offer takes these multiple contexts into account.
-So, for example, if you are working on docs that are also used in for open source, please do not refer to Pivotal's commercial offerings.
 
 ## Submitting a Pull Request
 
@@ -113,6 +109,8 @@ or on the branch corresponding to its version number.
 ## Product Variables
 
 Variables for this book are in `config/template_variable.yml`.
-Don't make more variables than abolutely necessary.
+Don't make more variables than absolutely necessary.
+Minimizing variable usage in this book will make it easier for the engineering team to contribute.
+
 If you need to make more variables, be consistent with variables in other books,
 see [Product Variables](https://docs-wiki.cfapps.io/wiki/style/product-variables.html).
