@@ -16,17 +16,15 @@ sections:
 
 - repository:
     name: pivotal/docs-tanzu-buildpacks
-  directory: tanzu-buildpacks/0-n
-  subnav_template: tanzu-buildpacks_subnav_0-n.erb
+  directory: tanzu-buildpacks/
+  subnav_template: tanzu-buildpacks_subnav.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 0.1
 # update the changelog_href when publishing this book to production
-    changelog_href: http://docs-pcf-staging.cfapps.io/tanzu-buildpacks/0-n/release-notes.html
+    changelog_href: http://docs-pcf-staging.cfapps.io/tanzu-buildpacks/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: Tanzu Buildpacks
     search_placeholder: Search Tanzu Buildpacks
-    url_prefix: tanzu-buildpacks/0-n
-    local_product_version: '0.1'
+    url_prefix: tanzu-buildpacks/
     local_header_links: []
     local_header_version_list:
