@@ -26,6 +26,3 @@ sections:
     local_header_title: Tanzu Buildpacks
     search_placeholder: Search Tanzu Buildpacks
     url_prefix: tanzu-buildpacks/
-    local_product_version: '0.1'
-    local_header_links: []
-    local_header_version_list:
