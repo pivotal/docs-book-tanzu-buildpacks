@@ -1,7 +1,7 @@
 ---
 book_repo: docs-book-tanzu-buildpacks
 layout_repo: pivotal-cf/docs-layout-repo
-layout_repo_ref: 'edge'
+layout_repo_ref: 'master'
 
 feedback_enabled: true
 
