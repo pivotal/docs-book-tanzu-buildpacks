@@ -12,8 +12,6 @@ public_host: docs.pivotal.io
 
 elastic_search: true
 
-skip_versioning: true
-
 sections:
 
 - repository:
@@ -29,3 +27,4 @@ sections:
     search_placeholder: Search Tanzu Buildpacks
     url_prefix: tanzu-buildpacks/
     local_header_links: []
+    skip_versioning: true
