@@ -12,6 +12,8 @@ public_host: docs.pivotal.io
 
 elastic_search: true
 
+skip_versioning: true
+
 sections:
 
 - repository:
