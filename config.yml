@@ -20,8 +20,7 @@ sections:
   subnav_template: tanzu-buildpacks_subnav_0-n.erb
   product_info:
     use_local_header: true
-# update the changelog_href when publishing this book to production
-    changelog_href: http://docs-pcf-staging.cfapps.io/tanzu-buildpacks/release-notes.html
+    changelog_href: http://docs.pivotal.io/tanzu-buildpacks/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: Tanzu Buildpacks
     search_placeholder: Search Tanzu Buildpacks
