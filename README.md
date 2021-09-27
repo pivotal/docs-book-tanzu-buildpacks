@@ -2,7 +2,7 @@
 
 The content repo associated with this book is [pivotal/docs-tanzu-buildpacks](https://github.com/pivotal/docs-tanzu-buildpacks).
 For specific information about Tanzu Buildpacks documentation,
-see [Tanzu Buildpacks Docs](https://github.com/pivotal-cf/docs-tanzu-buildpacks/blob/master/README.md).
+see [Tanzu Buildpacks Docs](https://github.com/pivotal/docs-tanzu-buildpacks/blob/master/README.md).
 
 
 In this topic:
@@ -38,7 +38,7 @@ The `master_middleman` folder contains the templates used for publishing.
 ## Running Locally
 Clone the following repositories:
 * [docs-layout-repo](https://github.com/pivotal-cf/docs-layout-repo)
-* [docs-tanzu-buildpacks](https://github.com/pivotal-cf/docs-tanzu-buildpacks)
+* [docs-tanzu-buildpacks](https://github.com/pivotal/docs-tanzu-buildpacks)
 
 From the home directory of the docs-book-tanzu-buildpacks repository, run:
 ```
@@ -63,7 +63,7 @@ in the [Bookbinder/Bookbindery](https://github.com/pivotal-cf/bookbinder/blob/ma
 
 ## The Docs Toolchain
 
-The Tanzu documentation is written in markdown and published using the [Bookbinder gem](http://github.com/pivotal-cf/docs-bookbinder) to generate the documentation as a web application with [Middleman](http://middlemanapp.com/).
+The Tanzu documentation is written in markdown and published using the [Bookbinder gem](http://github.com/pivotal-cf/bookbinder) to generate the documentation as a web application with [Middleman](http://middlemanapp.com/).
 
 
 ## Contributing to the Documentation
