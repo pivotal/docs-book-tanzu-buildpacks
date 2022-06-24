@@ -16,7 +16,6 @@ sections:
 
 - repository:
     name: pivotal/docs-tanzu-buildpacks
-    ref: '182499126-fix-concourse-build'
   directory: tanzu-buildpacks
   subnav_template: tanzu-buildpacks_subnav_0-n.erb
   product_info:
