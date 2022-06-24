@@ -5,6 +5,7 @@ r301 %r{.*}, 'https://docs.pivotal.io$&', :if => Proc.new { |rack_env|
 
 # Redirect from docs.pivotal.io/tanzu-buildpacks to docs.vmware.com Tanzu Buildpacks docs
 
-r301  %r{/tanzu-buildpacks/(.*)}, "https://docs.vmware.com/en/VMware-Tanzu-Buildpacks/services/tanzu-buildpacks/GUID-$1"
+r301  %r{/tanzu-buildpacks/([^/\n]*)/(.*)}, "https://docs.vmware.com/en/VMware-Tanzu-Buildpacks/services/tanzu-buildpacks/GUID-$1-$2"
+r301  %r{/tanzu-buildpacks/([\w-]*\.html)}, "https://docs.vmware.com/en/VMware-Tanzu-Buildpacks/services/tanzu-buildpacks/GUID-$1"
 r301  %r{/tanzu-buildpacks/}, "https://docs.vmware.com/en/VMware-Tanzu-Buildpacks/services/tanzu-buildpacks/GUID-index.html"
 r301  %r{/tanzu-buildpacks}, "https://docs.vmware.com/en/VMware-Tanzu-Buildpacks/services/tanzu-buildpacks/GUID-index.html"
